@@ -1,8 +1,11 @@
 # EC335.P21
 Machine Learning for IoT 
+
 🛡️ Phát hiện xâm nhập trong hệ thống IoT bằng các thuật toán học máy
 Đây là đồ án áp dụng các thuật toán học máy để xây dựng hệ thống phát hiện xâm nhập (IDS) trong mạng IoT, sử dụng dữ liệu mạng và hành vi truy cập. Các mô hình được so sánh bao gồm: Decision Tree, Random Forest, LightGBM và XGBoost.
+
 📂 Dữ liệu sử dụng: Do dung lượng lớn, dữ liệu không được đính kèm trực tiếp trong repo.
+
 👉 Vui lòng tải bộ dữ liệu gốc tại đây: https://www.kaggle.com/datasets/hemachandiranmurugan/intrusion-in-iot/data
 Sau khi tải xong, đặt file .csv vào thư mục data/:
 
@@ -52,6 +55,7 @@ Mỗi mô hình được tối ưu bằng GridSearchCV và đánh giá qua:
 2. Cài đặt thư viện: pip install -r requirements.txt
 3. Tải dữ liệu từ Kaggle và đặt vào thư mục data/.
 4. Mở Jupyter Notebook và chạy: jupyter notebook intrusion-in-iot-classification-algorithms.ipynb
+
 👥 Thành viên thực hiện
 + Nguyễn Thị Mỹ Dung – 22520288
 + Nguyễn Thị Kim Ngọc – 22520959
