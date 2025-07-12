@@ -9,6 +9,7 @@ Machine Learning for IoT
 👉 Vui lòng tải bộ dữ liệu gốc tại đây: https://www.kaggle.com/datasets/hemachandiranmurugan/intrusion-in-iot/data
 Sau khi tải xong, đặt file .csv vào thư mục data/:
 
+```bash
 data/
 └── cleaned_iot.csv
 
@@ -44,6 +45,7 @@ Mỗi mô hình được tối ưu bằng GridSearchCV và đánh giá qua:
 
 📁 Cấu trúc thư mục
 
+```bash
 📁 intrusion-in-iot-classification
 ├── intrusion-in-iot-classification-algorithms.ipynb  # Notebook chính
 ├── README.md
