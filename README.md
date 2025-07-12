@@ -10,7 +10,7 @@ Machine Learning for IoT
 Sau khi tải xong, đặt file .csv vào thư mục data/:
 
 ```bash
-data/
+Data/
 └── cleaned_iot.csv
 ```
 🎯 Mục tiêu đề tài
@@ -49,7 +49,7 @@ Mỗi mô hình được tối ưu bằng GridSearchCV và đánh giá qua:
 📁 intrusion-in-iot-classification
 ├── intrusion-in-iot-classification-algorithms.ipynb  # Notebook chính
 ├── README.md
-└── data/
+└── Data/
     └── cleaned_iot.csv  # (Dữ liệu tải từ Kaggle)
 ```
 ▶️ Cách chạy project
