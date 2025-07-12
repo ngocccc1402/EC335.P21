@@ -12,7 +12,7 @@ Sau khi tải xong, đặt file .csv vào thư mục data/:
 ```bash
 data/
 └── cleaned_iot.csv
-
+```
 🎯 Mục tiêu đề tài
 + Xây dựng hệ thống phát hiện và phân loại các cuộc tấn công vào hệ thống IoT.
 + So sánh hiệu quả giữa các thuật toán học máy phổ biến.
@@ -51,7 +51,7 @@ Mỗi mô hình được tối ưu bằng GridSearchCV và đánh giá qua:
 ├── README.md
 └── data/
     └── cleaned_iot.csv  # (Dữ liệu tải từ Kaggle)
-
+```
 ▶️ Cách chạy project
 1. Clone repo
 2. Cài đặt thư viện: pip install -r requirements.txt
